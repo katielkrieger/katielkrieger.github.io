@@ -6,10 +6,26 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css" rel="stylesheet" integrity="sha384-h21C2fcDk/eFsW9sC9h0dhokq5pDinLNklTKoxIZRUn3+hvmgQSffLLQ4G4l2eEr" crossorigin="anonymous">
   <style>
  
-    .titles {
-      font-size: 5rem;
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
     }
 
+    .container-fluid{
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+    }
+
+    section {
+      flex: 1;
+    }
+
+    .large {
+      font-size: 5rem;
+      background-color: #2DCDFF;
+    }
 
     .bottom {
       margin-top: 6rem;
@@ -26,6 +42,8 @@
     .buffer {
       margin-bottom: 1.5rem;
     }
+
+
     
     
   </style>
@@ -69,13 +87,11 @@
 
   <section>
     <div class="row">
-      <div class="col-xs-4 titles">CONTACT</div>
-      <div class="col-xs-8 titles"><b>I would love to hear from you</div>
-      <div class="col-xs-8"><b>Email: </b> katielkrieger@gmail.com</div>
-      <div class="col-xs-8"><b>Cell: </b> (214) 356-5897</div>
+      <div class="col-xs-12 col-sm-4 large">CONTACT</div>
+      <div class="col-xs-12 col-sm-8"><b>I would love to hear from you</b></div>
+      <div class="col-xs-12 col-sm-8"><b>Email: </b> katielkrieger@gmail.com</div>
+      <div class="col-xs-12 col-sm-8"><b>Cell: </b> (214) 356-5897</div>
     </div>
-
-    <div class="row">
 
   </section>
 

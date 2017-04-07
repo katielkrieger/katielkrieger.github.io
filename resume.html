@@ -6,10 +6,26 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css" rel="stylesheet" integrity="sha384-h21C2fcDk/eFsW9sC9h0dhokq5pDinLNklTKoxIZRUn3+hvmgQSffLLQ4G4l2eEr" crossorigin="anonymous">
   <style>
  
-    .titles {
-      font-size: 5rem;
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
     }
 
+    .container-fluid{
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+    }
+
+    section {
+      flex: 1;
+    }
+
+    .large {
+      font-size: 5rem;
+      background-color: #FF467B;
+    }
 
     .bottom {
       margin-top: 6rem;
@@ -25,6 +41,10 @@
 
     .buffer {
       margin-bottom: 1.5rem;
+    }
+
+    .text {
+      margin-bottom: 2rem;
     }
     
     
@@ -69,12 +89,14 @@
 
   <section>
     <div class="row">
-      <div class="col-xs-4 titles"><img src="/image.jpg" class="img-responsive"></div>
-      <div class="col-xs-8 titles"><b>Welcome!</b></div>
-      <div class="col-xs-8">Thank you for visiting</div>
+      <div class="col-xs-12 col-sm-4 large">RESUME</div>
+      <div class="col-xs-12 col-sm-8"><b>Professional Info</b></div>
+      <div class="col-xs-12 col-sm-8 text">stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here</div>
+      <div class="col-xs-12 col-sm-8 col-sm-offset-4"><b>Work Experience</b></div>
+      <div class="col-xs-12 col-sm-8 col-sm-offset-4 text">stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here</div>    
+      <div class="col-xs-12 col-sm-8 col-sm-offset-4"><b>Education</b></div>
+      <div class="col-xs-12 col-sm-8 col-sm-offset-4 text">stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here stuff here</div>
     </div>
-
-    <div class="row">
 
   </section>
 
